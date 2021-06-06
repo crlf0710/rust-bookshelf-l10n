@@ -1,0 +1,1 @@
+mdtranslation_extract -l en_US ..\reference\src\introduction.md l18n\introduction.md
