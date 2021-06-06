@@ -14,24 +14,37 @@ Introduction
 
 This book is the primary reference for the Rust programming language\.
 It provides three kinds of material\:
+   * zh_CN
+
+本书为 Rust 编程语言的主体参考手册。
+它提供了以下三种素材：
 
 ***
 > Chapters that informally describe each language construct and their use.
    * en_US
 
 Chapters that informally describe each language construct and their use.
+   * zh_CN
+
+以非形式化的语言，描述每种语言构造和它们的使用方法的章节。
 
 ***
 > Chapters that informally describe the memory model, concurrency model, runtime services, linkage model, and debugging facilities.
    * en_US
 
 Chapters that informally describe the memory model, concurrency model, runtime services, linkage model, and debugging facilities.
+   * zh_CN
+
+以非形式化的语言，描述内存模型，并发模型，运行时服务，链接模型和调试功能的章节。
 
 ***
 > Appendix chapters providing rationale and references to languages that influenced the design.
    * en_US
 
 Appendix chapters providing rationale and references to languages that influenced the design.
+   * zh_CN
+
+提供影响语言设计的背景理由、对其他语言的参考引用的附录章节。
 
 ***
 > Warning\:
@@ -46,6 +59,14 @@ This book is incomplete\. Documenting everything takes a while\.
 See the [GitHub issues] for what is not documented in this book\.
 
 [GitHub issues]: <https://github.com/rust-lang/reference/issues>
+
+   * zh_CN
+
+警告：
+本书处于未完成状态。书写文档是耗时的工作。
+要查看关于本书尚未书写记录形成文档的内容，可以参看[GitHub上的问题列表]。
+
+[GitHub上的问题列表]: <https://github.com/rust-lang/reference/issues>
 
 ***
 > Rust releases
@@ -71,6 +92,14 @@ Tools \(`rustc`, `cargo`, etc\.\) and documentation \([Standard library], this b
 
 [Standard library]: <../std/index.html>
 
+   * zh_CN
+
+Rust 每六周进行一个新的语言版本发布。
+Rust 语言的首次发布的稳定版本为1.0.0，随后是1.1.0，等等。
+开发工具 (`rustc`、`cargo`等）与文档（[标准库]、本书等）随同语言版本发布一同发布版本。
+
+[标准库]: <../std/index.html>
+
 ***
 > The latest release of this book, matching the latest Rust version, can always be found at <https://doc.rust-lang.org/reference/>\.
 > Prior versions can be found by adding the Rust version before the \"reference\" directory\.
@@ -80,6 +109,11 @@ Tools \(`rustc`, `cargo`, etc\.\) and documentation \([Standard library], this b
 The latest release of this book, matching the latest Rust version, can always be found at <https://doc.rust-lang.org/reference/>\.
 Prior versions can be found by adding the Rust version before the \"reference\" directory\.
 For example, the Reference for Rust 1\.49\.0 is located at <https://doc.rust-lang.org/1.49.0/reference/>\.
+   * zh_CN
+
+本书最新发布版本，也就是与最新的 Rust 版本相匹配的版本，总是可以从如下网址访问：<https://doc.rust-lang.org/reference/>。
+先前的版本，可以在网址中"reference"目录之前加上Rust版本号来访问。
+例如，适用于Rust 1.49.0版本的《参考手册》位于<https://doc.rust-lang.org/1.49.0/reference/>。
 
 ***
 > What _The Reference_ is not
