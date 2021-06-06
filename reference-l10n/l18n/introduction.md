@@ -3,6 +3,10 @@
 
 Introduction
 
+   * zh_CN
+
+简介
+
 ***
 > This book is the primary reference for the Rust programming language\.
 > It provides three kinds of material\:
@@ -48,6 +52,10 @@ See the [GitHub issues] for what is not documented in this book\.
    * en_US
 
 Rust releases
+
+   * zh_CN
+
+Rust 版本发布
 
 ***
 > Rust has a new language release every six weeks\.
